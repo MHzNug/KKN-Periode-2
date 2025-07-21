@@ -14,27 +14,29 @@ Model ini dapat mengklasifikasikan gambar sampah ke dalam beberapa kategori sepe
 - Residu
 
 ## 📁 Struktur Proyek
+```
 .
-├── dataset/ # Dataset yang dibagi menjadi train/val/test
-│ ├── train/
-│ ├── test/
-│ └── val/
+├── dataset/                  # Dataset yang dibagi menjadi train/val/test
+│   ├── train/
+│   ├── test/
+│   └── val/
 │
-├── models/ # Folder model terlatih
-│ ├── model.h5 # Model Keras
-│ └── tfjs_model/ # Model TensorFlow.js
-│ ├── model.json
-│ ├── group1-shard1of3.bin
-│ ├── group1-shard2of3.bin
-│ └── group1-shard3of3.bin
+├── models/                   # Folder model terlatih
+│   ├── model.h5              # Model Keras
+│   └── tfjs_model/           # Model TensorFlow.js
+│       ├── model.json
+│       ├── group1-shard1of3.bin
+│       ├── group1-shard2of3.bin
+│       └── group1-shard3of3.bin
 │
 ├── notebooks/
-│ └── training.ipynb # Notebook pelatihan model
+│   └── training.ipynb        # Notebook pelatihan model
 │
-├── app.py # Aplikasi Streamlit untuk prediksi
-├── train.py # Script pelatihan model via terminal
-├── requirements.txt # Dependensi Python
-└── README.md # Dokumentasi proyek ini
+├── app.py                    # Aplikasi Streamlit untuk prediksi
+├── train.py                  # Script pelatihan model via terminal
+├── requirements.txt          # Dependensi Python
+└── README.md                 # Dokumentasi proyek ini
+```
 
 ## Instalasi dan Persiapan
 
