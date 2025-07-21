@@ -14,7 +14,7 @@ Model ini dapat mengklasifikasikan gambar sampah ke dalam beberapa kategori sepe
 - Residu
 
 ## 📁 Struktur Proyek
-
+.
 ├── dataset/ # Dataset yang dibagi menjadi train/val/test
 │ ├── train/
 │ ├── test/
